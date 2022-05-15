@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}
+
+input[type=submit], input[type=reset]{
+    margin: 20px;
+    padding: 15px;
+    background-color: #304166;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    background-color: #9aa9ff;
+    color: black;
+    transition: 1s ease;
+}
+
+input[type=text]{
+    padding: 5px 10px;
+    margin: 10px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 5px;
+}
